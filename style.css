@@ -1,16 +1,39 @@
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 19%
+div.logo{
+    display: inline-block;
+    text-align: center;
+    width: 19%;
     
 }
+
+
+img{
+    width: 80%
+}
+.caption span{
+    display: block
+} 
+
+
 
 .words{
     color: rgb(0, 0, 0);
     text-decoration-line:none;
-    font-size: 15%
+    font-size: 80%;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+
 
     
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 45%
 }
 
