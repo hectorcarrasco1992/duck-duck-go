@@ -39,7 +39,10 @@ input{
     width: 300px;
 }
 
-
+:focus{
+    outline-color: transparent;
+    outline-style: none;
+}
 
 .search{
     display:inline-flexbox;
@@ -50,6 +53,7 @@ input{
     top:130px;
     position: relative;
     right: 50px;
+    
 }
 
 #submit{
